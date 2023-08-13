@@ -1,0 +1,16 @@
+[package]
+name = "iftree-reproduce"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+derivative = "2.2.0"
+iftree = "1.0.4"
+include-flate = "0.2.0"
+once_cell = "1.18.0"
+
+[build-dependencies]
+eyre = "0.6.8"
+fs_extra = "1.3.0"
